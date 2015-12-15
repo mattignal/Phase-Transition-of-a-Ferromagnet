@@ -32,3 +32,7 @@
 
 # Unignore markdown files
 !*.md
+
+#Unignore data
+!plot
+!res
