@@ -20,3 +20,5 @@ In the main function, the system is thermalized and achieves equilibrium. Produc
 The chosen grid is 64 x 64 and 60 loops are completed.
 
 The phase transition is illustrated by the graph. Temperature is plotted between 3 and 5 Kelvin. Phase transition clearly occurs at ~3.7 Kelvin.
+
+![alt tag](https://github.com/matthewignal/m2/blob/master/metropolis.png)
