@@ -27,9 +27,6 @@ LDLIBS    = $(shell gsl-config --libs)
 %.d : %.c
 	$(MAKEDEPEND) $< -MF $@
 
-%.res: ising-demo-%
-	./$< > $@
-
 all: ising-demo-metropolis
 
 OBJSM = ising-demo-metropolis.o ising.o metropolis.o matrixmem.o progressbar.o
@@ -46,9 +43,9 @@ headers_m:
 
 -include $(DEPSM)
 
-show: metropolis.res metropolis.gp
+show: metropolis.gp
 	$(GNUPLOT) metropolis.gp
-	evince metropolis.pdf >& /dev/null &
+	eog metropolis.png
 
 clean:
 	rm -f *.*~
