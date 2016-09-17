@@ -1,4 +1,3 @@
-# m2
 Numerically Estimates Temperature of Phase Transition of 2-D Ferromagnetic Ising Model on Triangular Lattice
 
 At critical (low) temperature, there is a phase transition between ferromagnetic and a paramagnetic phases of a system. 
